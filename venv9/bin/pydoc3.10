@@ -1,5 +1,0 @@
-#!/Users/sachin/github/Student_Marks_Prediction/venv9/bin/python3.10
-
-import pydoc
-if __name__ == '__main__':
-    pydoc.cli()
