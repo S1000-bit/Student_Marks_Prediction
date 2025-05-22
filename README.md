@@ -6,7 +6,11 @@ A lightweight Flask web app that predicts a student's **Math score** based on pe
 
 ## 📽️ Demo
 
-<div >
+<div align = "centre">
+<img src=https://github.com/user-attachments/assets/4e506785-588e-4ee9-b4d4-b709d16d5fa5 >
+</img>
+</div>
+  
 </div>
 
 ---
@@ -26,7 +30,7 @@ A lightweight Flask web app that predicts a student's **Math score** based on pe
 
 ---
 ## Data Collection 
-- ### 1) Problem statement
+### 1) Problem statement
 - This project understands how the student's performance (test scores) is affected by other variables such as Gender, Ethnicity, Parental level of education, Lunch and Test preparation course.
 
 
@@ -44,24 +48,23 @@ A lightweight Flask web app that predicts a student's **Math score** based on pe
 
 ---
 
----
 
 ## ⚙️ Local Setup (Without Docker)
 
 ### 1. Clone the Repository
 
 ```
-    git clone https://github.com/S1000-bit/Student_Marks_Prediction.git
-    cd Student_Marks_Prediction
+git clone https://github.com/S1000-bit/Student_Marks_Prediction.git
+cd Student_Marks_Prediction
 ```
 
 ### 2. Create a virtual environment
 
 ```
-    python3.10 -m venv venv
-    source venv/bin/activate  # macOS/Linux
-    # OR
-    venv\Scripts\activate.bat  # Windows 
+python3.10 -m venv venv
+source venv/bin/activate  # macOS/Linux
+# OR
+venv\Scripts\activate.bat  # Windows 
 ```
 
 
@@ -70,13 +73,13 @@ A lightweight Flask web app that predicts a student's **Math score** based on pe
 ### 1.Build the Docker Image
 
 ```
-    docker build -t student-exam-predictor .
+docker build -t student-exam-predictor .
 ```
 
 ### 2.Run the Container
 
 ```
-    docker run -p 5000:5000 student-exam-predictor
+docker run -p 5000:5000 student-exam-predictor
 ```
 
 ## 📬 License
