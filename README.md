@@ -6,7 +6,7 @@ A lightweight Flask web app that predicts a student's **Math score** based on pe
 
 ## 📽️ Demo
 
-<div align = "centre">
+<div align = "center">
 <img src=https://github.com/user-attachments/assets/4e506785-588e-4ee9-b4d4-b709d16d5fa5 >
 </img>
 </div>
