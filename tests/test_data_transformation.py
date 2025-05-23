@@ -7,7 +7,7 @@ def test_data_transformmation():
     train_path = "artifact/train.csv"
     test_path = "artifact/test.csv"
     
-    train_data,test_data,_ = initiate_data_transformation(train_path,test_path)
+    train_data,test_data,_ = obj.initiate_data_transformation(train_path,test_path)
     
     assert isinstance(train_data,np.ndarray)
     assert isinstance(test_data,np.ndarray)
